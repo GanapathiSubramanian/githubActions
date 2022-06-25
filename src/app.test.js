@@ -10,6 +10,6 @@ describe("/test endpoint", () => {
         const response = await request.get("/test")
         // /expect(response.status).toBe(200)
         // expect(response.text).toBe("Hello world");
-        assert.equal(response.status,201)
+        assert.equal(response.status,200)
     })
 })
